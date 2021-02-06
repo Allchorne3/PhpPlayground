@@ -1,0 +1,17 @@
+[
+	{
+		"path": "$ROOTPATH$\\css\\main.css",
+		"bookmarks": [
+			{
+				"line": 1,
+				"column": 20,
+				"label": "Variables"
+			},
+			{
+				"line": 72,
+				"column": 11,
+				"label": "Nav"
+			}
+		]
+	}
+]

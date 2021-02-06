@@ -3,7 +3,7 @@
 /** =========================================== */
 :root {
     /* Colours */
-    --blue: #1e90ff;
+    --black: #111111;
     --white: #ffffff;
     --clr-primary: #314455;
     --clr-secondary: #644E5B;
@@ -12,9 +12,162 @@
 
     /* Fonts */
     --ff-main: 'Playfair Display', serif;
-    --ff-body: 'Lato', sans-serif;  
+    --ff-body: 'Lato', sans-serif;
+
+    /* Font Weights */
+    --fw-normal: 400;
+    --fw-semibold: 600;
+    --fw-bold: 800;
+
+    /* Spacing */
+    --space-tiny: 2px;
+    --space-small: 10px;
+    --space-medium: 20px;
+    --space-large: 50px;
+}
+
+/** =========================================== */
+/** BASE
+/** =========================================== */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/main-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.i {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.margint_tiny {margin-top: 2px;}
+.margint_small {margin-top: 10px;}
+.margint_medium {margin-top: 20px;}
+.margint_large {margin-top: 50px;}
+
+/* Colours */
+.bgclr-pr {
+    background: var(--clr-primary);
+}
+
+/** =========================================== */
+/** TYPOGRAPHY
+/** =========================================== */
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: var(--ff-main);
+    font-weight: var(--fw-normal);
 }
 
 /** =========================================== */
 /** NAV BAR 
 /** =========================================== */
+
+header {
+    background: none;
+    padding: 2em;
+    font-family: var(--ff-main);
+}
+
+header a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Logo in Header */
+.main-nav .logo {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: var(--fw-semibold);
+    letter-spacing: 1px;
+}
+
+/* Nav list items */
+.main-nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.main-nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    position: relative;
+    z-index: 9;
+    font-size: 18px;
+}
+
+.main-nav ul li a::before {
+	position: absolute;
+	content: "";
+	bottom: -2px;
+	/* left: 4px; */
+	width: 100%;
+	height: 1px;
+	background: var(--white);
+	opacity: 0;
+    transition: all .3s ease-in-out;
+    z-index: -1;
+}
+
+.main-nav ul li a.active::before,
+.main-nav ul li a:hover::before {
+    bottom: 3.5px;
+	background: teal;
+	height: 3px;
+    opacity: .7;
+}
+
+.main-nav ul li:nth-child(2) a.active::before,
+.main-nav ul li:nth-child(2) a:hover::before {
+    background: coral;
+}
+
+.main-nav ul li:nth-child(3) a.active::before,
+.main-nav ul li:nth-child(3) a:hover::before {
+    background: palevioletred;
+}
+
+.main-nav ul li:nth-child(4) a.active::before,
+.main-nav ul li:nth-child(4) a:hover::before {
+    background: aquamarine;
+}
+
+.main-nav ul li:nth-child(5) a.active::before,
+.main-nav ul li:nth-child(5) a:hover::before {
+    background: slateblue;
+}
+
+/** =========================================== */
+/** CONTAINER 
+/** =========================================== */
+
+.container {
+    /* background: pink; */
+    min-height: 90vh;
+}
+
+/** =========================================== */
+/** THE PLAYGROUND 
+/** =========================================== */
+
+.php-playground {
+    background: var(--white);
+}
