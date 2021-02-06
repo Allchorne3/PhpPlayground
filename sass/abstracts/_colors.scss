@@ -1,0 +1,13 @@
+$black: #555;
+$white: #fff;
+$lightgrey: #eeeeee;
+
+$clr-primary: #314455;
+$clr-secondary: #644E5B;
+$clr-tertiary: #9E5A63;
+$clr-accent: #97AABD;
+
+.clr-primary {background-color: $clr-primary; color: $white;}
+.clr-secondary {background-color: $clr-secondary; color: $white;}
+.clr-tertiary {background-color: $clr-tertiary; color: $white;}
+.clr-accent {background-color: $clr-accent; color: $white;}

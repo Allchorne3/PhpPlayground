@@ -1,0 +1,14 @@
+// THIS SECTION IS WHERE YOU WOULD ASSIGN A FONT TO A VARIABLE, SO YOU CAN USE THIS VARIABLE IN "../ABSTRACTS/_TYPOGRAPHY.SCSS
+// NOTE: IF YOU ARE USING A FONT FROM GOOGLE FONTS, MAKE SURE YOU PUT THE <LINK> IN THE HEADER ON "INDEX.HTML"
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&display=swap');
+
+// Below is an example
+
+// Font Family
+$ff-primary: "Montserrat";
+
+// Font Weight
+$fw-normal: 300;
+$fw-semibold: 600;
+$fw-bold: 900;

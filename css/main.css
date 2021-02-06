@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: calc(100vh - 83px);
+}
+
+.clr-primary {
+  background-color: #314455;
+  color: #fff;
+}
+
+.clr-secondary {
+  background-color: #644E5B;
+  color: #fff;
+}
+
+.clr-tertiary {
+  background-color: #9E5A63;
+  color: #fff;
+}
+
+.clr-accent {
+  background-color: #97AABD;
+  color: #fff;
+}
+
+header {
+  background: #eeeeee;
+  padding: 2em;
+  border-bottom: solid 1px #555;
+}
+header .main-nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat";
+}
+header .main-nav .logo {
+  font-weight: 900;
+  font-size: 23px;
+  text-decoration: none;
+  color: #555;
+}
+header .main-nav .logo:hover {
+  color: red;
+}
+header .main-nav ul li {
+  display: inline-block;
+}
+header .main-nav ul li:not(:first-child) {
+  margin-left: 15px;
+}
+header .main-nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #555;
+  transition: all 0.3s ease-in-out;
+}
+header .main-nav ul li a:hover {
+  color: red;
+}
+
+footer {
+  background: #eeeeee;
+  padding: 2em;
+  border-top: solid 1px #555;
+}
+
+.clrGuide {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+.clrGuide span {
+  position: relative;
+  padding: 10px 15px;
+  font-family: "Arial";
+  font-weight: 900;
+  font-size: 13px;
+  padding: 20px 24px;
+  border-radius: 50%;
+  text-align: center;
+}
+.clrGuide span:not(:last-child) {
+  margin-bottom: 20px;
+}
+.clrGuide span span {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  padding: 3px 6.5px;
+  border: solid 3px #fff;
+  font-size: 11px;
+}
+
+.bgTxt1,
+.bgTxt2,
+.bgTxt3 {
+  background-color: #fff;
+  color: black;
+  border: solid 3px #314455 !important;
+}
+
+.bgTxt4 {
+  background-color: red;
+  background-color: #314455;
+}
