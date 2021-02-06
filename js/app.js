@@ -1,6 +1,6 @@
 // COLOUR GUIDE
 // Change to 0 to disable colour guide
-var colorGuide = 1;
+var colorGuide = 0;
 var clrGuide = $("html body div.clrGuide");
 
 if(colorGuide) {

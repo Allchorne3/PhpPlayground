@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/color-guide.css">
     <title>Document</title>
 </head>
 <body>
@@ -16,7 +15,7 @@
             <nav class="main-nav">
                 <a class="logo" href="#">PHP Playground</a>
                 <ul id="nav1">
-                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#" class="active">Playground</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
