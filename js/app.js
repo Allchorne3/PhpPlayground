@@ -11,9 +11,9 @@ if(colorGuide) {
 
 $(".clrGuide").html(`
     <div class="clrGuide">
-        <span class="clr-primary">P<span class="bgTxt1">T</span></span>
-        <span class="clr-secondary">S<span class="bgTxt2">T</span></span>
-        <span class="clr-tertiary">T<span class="bgTxt3">T</span></span>
-        <span class="clr-accent">A<span class="bgTxt4">T</span></span>
+        <span class="bgclr-primary">P<span class="bgTxt1">T</span></span>
+        <span class="bgclr-secondary">S<span class="bgTxt2">T</span></span>
+        <span class="bgclr-tertiary">T<span class="bgTxt3">T</span></span>
+        <span class="bgclr-accent">A<span class="bgTxt4">T</span></span>
     </div>
 `);

@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--INSERT GOOGLE FONT LINK-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color-guide.css">
     <title>Document</title>
 </head>
 <body>
     <div class="clrGuide"></div>
     <header>
         <nav class="main-nav">
-            <a class="logo" href="#">LOGO</a>
+            <a class="logo" href="#">PHP Playground</a>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
